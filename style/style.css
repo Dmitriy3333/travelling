@@ -1,0 +1,137 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    background-color: rgb(226, 226, 226);
+  }
+.textarea {
+    /* margin-top: -23px; */
+    background-color: rgb(155, 208, 179);
+    height: auto;
+    
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.665);
+    width: 70%;
+
+    font-weight: 500;
+/* font-family: 'Roboto', sans-serif; */
+    margin-left: 15%;
+}
+
+.main-top {
+    height: 150px;
+    width: 100%;
+    text-align: center;
+    
+    /* background-color: aqua; */
+    background-image: url('../images/main.jpg');
+    background-size: 350px;
+}
+
+.main-top span {
+    line-height: 150px;
+    font-size: 70px;
+    color: rgb(0, 41, 0);
+    text-shadow: 1px 1px 10px rgb(255, 255, 255);
+}
+
+.menu {
+    height: auto;
+    float: left;
+    width: 25%;
+    background-color: rgb(155, 208, 179); /* Цвет блока слева */
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.menu ul {
+    margin: 0px;
+    padding-top: 40px;
+    padding-left: 20px;
+}
+.menu ul a {
+    outline: none;
+    text-decoration: none;
+    color: rgb(1, 42, 0);
+}
+.menu ul li {
+    background-color: rgb(183, 247, 212);
+    border: 2px solid rgb(114, 149, 129);
+    border-radius: 10px;
+    list-style: none;
+    width: 70%;
+    margin-bottom: 15px;
+    font-family: 'Nunito', sans-serif;
+    padding: 8px 16px;
+    font-size: 20px;
+}
+
+.menu .active {
+    /* box-shadow: 0px 0px 10px rgb(255, 255, 255); */
+    border: 3px solid rgb(68, 89, 77);
+}
+
+.main_text {
+    /* width: 79%; */
+    height: 90%;
+    margin-left: 25%;
+    
+    background-color: rgb(204, 246, 223); /* Цвет блока справа */
+    box-sizing: border-box;
+    padding: 30px 90px 0px 50px;
+    font-family: 'Nunito', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+    /* float: right; */
+}
+
+.main_text p:first-child {
+    line-height: 27px;
+    font-size: 22px;
+    padding-left: 0px;
+
+}
+
+.main_text p {
+    line-height: 27px;
+    padding-left: 20px;
+    font-size: 22px;
+}
+
+.main_text li {
+
+    font-size: 18px;
+}
+
+.main_text p:last-child {
+    padding-bottom: 50px;
+}
+
+footer {
+    width: 100%;
+    font-size: 23px;
+    /* margin-left: 15%; */
+    text-align: end;
+    /* padding-right: 40px; */
+    margin-top: -21px;
+    line-height: 90px;
+    height: 90px;
+    font-family: 'Nunito', sans-serif;
+    background-color: rgb(134, 180, 155); /* Цвет блока слева */
+}
+
+.typical-right {
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgb(44, 44, 44);
+    width: 45%;
+    margin: 20px;
+    margin-right: -30px;
+    float: right;
+}
+
+.typical-right-fir {
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgb(44, 44, 44);
+    width: 30%;
+    margin: 20px;
+    margin-right: -30px;
+    float: right;
+}
